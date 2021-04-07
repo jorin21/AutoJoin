@@ -1,4 +1,5 @@
 import datetime as dt
+import subprocess
 
 current_datetime = dt.datetime.now()
 print(current_datetime)
@@ -9,4 +10,4 @@ print(string_date)
 if string_date == 'Apr 06, 12:09:00PM':
     print('yes!')
 else:
-    print('no')
+    subprocess.call(['C:\Users\jorge\Desktop\Prive Stuff\helebn.helebn.png'])
