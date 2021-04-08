@@ -10,7 +10,7 @@ date = datetime.now().strftime("%b %d")
 time = datetime.now().strftime("%I:%M%p")
 
 
-with open('Dates.txt', 'r') as read_obj:
+with open("C:/Users\jorge\Desktop\Python AutoJoin Script\Code\Dates.txt", 'r') as read_obj:
     for line in read_obj:
         if date in line:
             ss = line.split("=")
@@ -21,12 +21,12 @@ with open('Dates.txt', 'r') as read_obj:
                     sleep(1)
                     print('.')
                     sleep(9)
-                    mute = pyautogui.locateCenterOnScreen("Images/mute.PNG") 
+                    mute = pyautogui.locateCenterOnScreen("C:/Users\jorge\Desktop\Python AutoJoin Script\Code\Images\mute.png") 
                     pyautogui.moveTo(mute)
                     pyautogui.click()
                     sleep(1)
 
-                    join = pyautogui.locateCenterOnScreen("Images/join.PNG") 
+                    join = pyautogui.locateCenterOnScreen("C:/Users\jorge\Desktop\Python AutoJoin Script\Code\Images\join.png") 
                     pyautogui.moveTo(join)
                     pyautogui.click()
                     sleep(2)
