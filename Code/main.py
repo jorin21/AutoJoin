@@ -47,9 +47,9 @@ with open("C:/Users\jorge\Desktop\Auto MS Teams Code\AutoJoin\Code\Dates.txt", '
                     pyautogui.click()
                     sleep(2)
                     print('Enjoy Engineering Jorge!')
-                if c_time >= "10:55" and c_time < "11:20":
-                    print(time)
-                    print("no classes right now")
+                if c_time > "10:48" and c_time < "11:31":
+                    print(f"It's {time}")
+                    print("No classes right now Jorge. Enjoy your lunch")
                 if c_time >= "11:31" and c_time < "13:02":
                     print(time)
                     os.startfile("C:/Users\jorge\Desktop\Auto MS Teams Code\AutoJoin\Code\Classes\Class 3.lnk")
@@ -131,6 +131,9 @@ with open("C:/Users\jorge\Desktop\Auto MS Teams Code\AutoJoin\Code\Dates.txt", '
                     pyautogui.click()
                     sleep(2)
                     print('Enjoy Psych Jorge!')
+                if c_time > "12:26" and c_time < "13:05":
+                    print(f"It's {time}")
+                    print('No classes at this time Jorge. Have lunch!')
                 if c_time >= "13:05" and c_time < "14:40":
                     print(time)
                     os.startfile("C:/Users\jorge\Desktop\Auto MS Teams Code\AutoJoin\Code\Classes/Class 8.lnk")
